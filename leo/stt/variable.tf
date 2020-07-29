@@ -5,5 +5,6 @@ variable "default_tags" {
         "tr:application-asset-insight-id": "205419"
         "tr:environment-type": "DEVELOPMENT"
         "tr:service-name": "VM"
+        "tr:resource-owner": "jia.ma@refinitiv.com"
   }
 }

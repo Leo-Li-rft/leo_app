@@ -14,4 +14,5 @@ resource "aws_lambda_function" "a205419-cvm-hello" {
   role          = "arn:aws:iam::608014515287:role/a205419-vmauto-dev"
   handler       = "com.refinitiv.cvm.HelloLambda::handleRequest"
   runtime = "java8"
+  tags = var.default_tags
 }

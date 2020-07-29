@@ -19,5 +19,4 @@ resource "aws_lambda_function" "a205419-cvm-hello" {
 
 resource "aws_efs_file_system_policy" "my_efs_policy" {
   file_system_id = aws_efs_file_system.my_efs.id
-  tags = var.default_tags
 }
