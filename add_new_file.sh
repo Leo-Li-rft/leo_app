@@ -3,7 +3,7 @@
 set -e # fail fast
 set -x # print commands
 
-git clone leo_app updated-app
+git clone app updated-app
 
 cd updated-app
 date > leo.log
